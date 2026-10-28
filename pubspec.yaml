@@ -1,0 +1,28 @@
+name: currency_demo
+description: "A new Flutter project."
+publish_to: 'none'
+
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.13.7
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  # Стандартные иконки
+  cupertino_icons: ^1.0.8
+
+  # НОВЫЕ ПАКЕТЫ ДЛЯ РАБОТЫ С API ЦБ:
+  http: ^1.2.0
+  xml: ^6.3.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  flutter_lints: ^6.0.0
+
+flutter:
+  uses-material-design: true
